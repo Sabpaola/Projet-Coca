@@ -1,0 +1,54 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: transparent;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#content .info {
+  height: 20px;
+}
+
+#content .map path {
+  fill: #aaa;
+  stroke: #fff;
+}
+
+#content .bounding-box rect {
+  fill: none;
+  stroke-dasharray: 2,1;
+}
+
+#content .centroid {
+  display: none;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, p, .info{
+    text-align: center;
+}
+
+p {
+    width: 100%;
+    display: block;
+}
+
+#stat_global{
+    display: flex;
+}
+
+#stat_current{
+    text-align: center;
+}
+
+#stat_mexique, #stat_france, #stat_monde{
+    padding: 10px;
+    text-align: center;
+    width: 33%;
+}

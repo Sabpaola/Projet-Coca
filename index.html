@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
     <title>Document</title>
 </head>
-<body>
+<body> 
+    <div>
+        <h1>Projet Coca</h1>
+        <p>La consommation de Coca-Cola dans la région de Chiapas, au Mexique, est un phénomène qui a suscité beaucoup d'attention 
+            et de débat ces dernières années. Bien que cette boisson soit devenue omniprésente dans la vie quotidienne des habitants 
+            de la région, elle a également été liée à des problèmes de santé et environnementaux, ainsi qu'à des conflits 
+            socio-économiques. Malgré cela, Coca-Cola continue d'être une boisson populaire et accessible dans les communautés 
+            rurales et urbaines de Chiapas, où elle est souvent consommée en grande quantité lors de fêtes et d'événements sociaux. 
+            Dans cette visualisation, nous comparons la consommation dans la région et le reste du monde.
+        </p>
+        <div id="content">            
+            <svg width="620px" height="600px"  class="center">
+                <g class="map"></g>
+                <g class="bounding-box"><rect></rect></g>
+                <g class="centroid"><circle r="4"></circle></g>
+            </svg>
+            <h2 class="info"></h2>
+            <div id="stat_current"></div>
+        </div> 
+        <h2 style="text-align: center;">Consommation annuel par personne (L)</h2>    
+        <div id="stat_global">                           
+            <div id="stat_mexique"><h3>Mexique</h3></div>
+            <div id="stat_france"><h3>France</h3></div>
+            <div id="stat_monde"><h3>Monde</h3></div>
+        </div>
+        <p>Une bouteille représente 10 L/an</p>
+        <p>&copy Sabrina</p>
+    </div>
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.3/d3.min.js"></script>
+    <script src="script/script.js"></script>    
 </body>
 </html>
