@@ -3,20 +3,20 @@ Mon projet porte sur une visualisation représentant le Mexique et sa consommati
 ![](https://github.com/Sabpaola/Projet-Coca/blob/main/images/capture%201%20.png)
 ![](https://github.com/Sabpaola/Projet-Coca/blob/main/images/capture%202%20.png)
 #procédure d'installation 
-Il faut installer : https://nodejs.org/en 
+Il faut installer : https://nodejs.org/en <br/>
 Dans le dossier Projet-Coca il faut exécuter la commande npm install -g http-server puis http-server &
 #sources 
 Carte mexique json : 
-- https://cartographyvectors.com/map/1482-mexico-with-regions 
+- https://cartographyvectors.com/map/1482-mexico-with-regions <br/>
 code : 
-- https://www.d3indepth.com/geographic/
+- https://www.d3indepth.com/geographic/ <br/>
 données :
-- https://www.planetoscope.com/boisson/1262-consommation-mondiale-de-coca-cola.html
+- https://www.planetoscope.com/boisson/1262-consommation-mondiale-de-coca-cola.html 
 - https://globometer.com/boissons-coca-monde.php
 - https://reporterre.net/Au-Mexique-la-population-manque-d
 - https://www.sbs.com.au/news/dateline/article/this-small-town-in-mexico-is-addicted-to-coca-cola-it-also-grapples-with-a-deadly-disease/p1m2g5dtd
 - https://mexiconewsdaily.com/news/with-average-daily-consumption-of-2-2-liters-of-coca-cola-chiapas-leads-the-world/
 - https://www.youtube.com/watch?v=hqnUohxXV0I&t=144s
-- https://www.youtube.com/watch?v=1zeTSTS91mU&t=23s
+- https://www.youtube.com/watch?v=1zeTSTS91mU&t=23s <br/>
 #contexte de développement 
 Cours visualisation de donnée dispensé par Isaac Pante (DCS UNIL) 
