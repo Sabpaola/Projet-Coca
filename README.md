@@ -3,7 +3,7 @@ Mon projet porte sur une visualisation représentant le Mexique et sa consommati
 ![](https://github.com/Sabpaola/Projet-Coca/blob/main/images/capture%201%20.png)
 ![](https://github.com/Sabpaola/Projet-Coca/blob/main/images/capture%202%20.png)
 #procédure d'installation 
-Il faut installer https://nodejs.org/en 
+Il faut installer : https://nodejs.org/en 
 Dans le dossier Projet-Coca il faut exécuter la commande npm install -g http-server puis http-server &
 #sources 
 Carte mexique json : 
