@@ -39,7 +39,19 @@ function update(geojson) {
 		.append('path')
 		.attr('d', geoGenerator)
 		.on('mouseover', handleMouseover);
-}
+        
+        
+    let paths = d3.select("g.map").selectAll("path");
+    paths.each(function(d){
+            if(d.properties.name == "Chiapas")
+            {
+                d3.select(this).attr("fill", "#cc3300");
+            }
+            else{
+                d3.select(this).attr("fill", "#aaa");
+            }
+        });
+    }
 
 d3.json('./data/mexico.geojson')
 	.then(function(json) {  
